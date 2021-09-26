@@ -1,0 +1,21 @@
+.chat {
+  width: 100%;
+  height: 90vh;
+  max-height: 90vh;
+  overflow: scroll;
+  &__chatWith {
+    &__name-at-top {
+      height: 2rem;
+      background: #000000;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 50%;
+    }
+  }
+  &__send-message {
+    width: 100%;
+  }
+}
